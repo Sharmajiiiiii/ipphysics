@@ -34,7 +34,7 @@
     content: "";
     background: rgb(200 188 188 / 70%) url(img/background.jpeg);
     position: absolute;
-    height: 177%;
+    height: 100%;
     width: 100%;
     z-index: -1;
     margin: 68px 0;
@@ -131,8 +131,14 @@ transform: rotateY(180deg);
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #62330d3d;
     color: white;
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: overlay;
+    font-size: x-large;
     transform: rotateY(180deg);
   }
   #flip {
@@ -158,6 +164,9 @@ transform: rotateY(180deg);
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+.aboutus{
+  border-bottom: 2px solid brown;
 }
 
   @media only screen and (max-width:466px) {
